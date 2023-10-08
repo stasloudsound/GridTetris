@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="6"
+    android:rowCount="8"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="2"
+        android:layout_columnSpan="6"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        android:text="Верх"
+        android:textSize="35dp">
+
+    </Button>
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_rowSpan="4"
+        android:layout_rowWeight="1"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:layout_margin="5dp"
+        android:text="Лев"
+        android:textSize="35dp">
+    </Button>
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        android:text="Ср верх"
+        android:textSize="35dp">
+
+    </Button>
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_rowSpan="6"
+        android:layout_rowWeight="1"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:layout_margin="5dp"
+        android:text="Пр"
+        android:textSize="35dp">
+
+    </Button>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        android:text="1"
+        android:textSize="30dp">
+
+    </Button>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_rowSpan="3"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        android:text="4"
+        android:textSize="20dp">
+
+    </Button>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        android:text="2"
+        android:textSize="20dp">
+
+    </Button>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        android:text="3"
+        android:textSize="20dp">
+
+    </Button>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="1"
+        android:layout_columnSpan="4"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        android:text="Низ"
+        android:textSize="35dp">
+
+    </Button>
+
+
+</GridLayout>
